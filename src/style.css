@@ -1,0 +1,35 @@
+
+.header{
+    background-color: gray;
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+}
+.titulo-principal{
+    width: 50%;
+    color: white;
+}
+.contenedor-menu{
+    width: 50%;
+}
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.menu-principal__item{
+    font-size: 20px;
+    text-decoration: underline;
+    color: thistle;
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baner__titulo{
+    position: absolute;
+    color: white;
+}
