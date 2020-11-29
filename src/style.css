@@ -40,3 +40,33 @@ body{
     position: absolute;
     color: white;
 }
+.services{
+    font-family: Helvetica;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+
+.servicios__contenedor{
+    padding: 3%;
+    /* border-style: dotted;
+    border-color: grey;
+    border-width: 2px; */ 
+}
+
+
+.TituloServicio{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    background-color: gainsboro;
+    text-align: center;
+    border:rgb(177, 174, 174) 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
+}
