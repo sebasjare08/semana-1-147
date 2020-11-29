@@ -1,6 +1,13 @@
-
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
 .header{
     background-color: gray;
+}
 .barra-superior{
     display: flex;
     align-items: center;
