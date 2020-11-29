@@ -6,7 +6,7 @@ body{
     
 }
 .header{
-    background-color: gray;
+    background-color: rgb(136, 160, 175);
 }
 .barra-superior{
     display: flex;
@@ -15,6 +15,7 @@ body{
 
 }
 .titulo-principal{
+    margin: 20px;
     width: 50%;
     color: white;
 }
@@ -171,3 +172,16 @@ body{
 .integrante{
     margin: 1px;
 }
+.footer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+}
+.footer__seccion{
+    width: 600px;
+}
+
